@@ -1,4 +1,5 @@
-EXEC =  tp1
+SRC = src
+EXEC = $(SRC)/main.c
 CC = gcc
 CFLAGS = -Wall -Werror -pedantic -std=c99 -g
 BIN = $(filter-out $(EXEC).c, $(wildcard *.c))
