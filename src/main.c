@@ -174,7 +174,7 @@ void cantidad_donada(persona_t* persona) {
 			
 			printf("%s", monto);
 
-		}else{
+		} else {
 			
 			printf("%s, ", monto);
 		}
@@ -274,7 +274,7 @@ void nominar(vector_t* vec_persona, char* persona_nombre, cola_t* cola, cola_t* 
 			
 			printf("ERROR4 %s\n", nominado);
 
-		}else {
+		} else {
 			
 			cargar_persona_en_sistema_y_en_cola_balde(vec_persona, cola_balde, nominado);
 			printf("OK %s\n", nominado);
@@ -344,7 +344,7 @@ void procesar_linea(cola_t* cola, vector_t* vec_persona, cola_t* cola_balde) {
 			tirar_balde(vec_persona, persona_nombre, decision, cola_balde);
 			free(decision);
 
-		} else{
+		} else {
 			
 			printf("COMANDO INVALIDO\n");
 		}
