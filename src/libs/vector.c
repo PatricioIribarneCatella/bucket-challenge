@@ -2,15 +2,14 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-typedef struct vector
-{
+typedef struct vector {
 	size_t tam;
 	void* *datos;
 	size_t cant_elem;
 } vector_t;
 
-vector_t* vector_crear(size_t tam)
-{
+vector_t* vector_crear(size_t tam) {
+
 	vector_t* vector = malloc(sizeof(vector_t));
 	if (vector == NULL) return NULL;
 

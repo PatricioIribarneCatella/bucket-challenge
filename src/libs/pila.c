@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
 #define TAM_INI 50
 #define FACTOR 2
 
@@ -98,3 +99,4 @@ void* pila_desapilar(pila_t *pila){
     pila->cant_elem = pila->cant_elem - 1;
     return pila->datos[pila->cant_elem];
 }
+
