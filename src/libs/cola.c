@@ -85,3 +85,4 @@ void cola_destruir(cola_t *cola, void destruir_dato(void*)){
     }
     free (cola);
 }
+
