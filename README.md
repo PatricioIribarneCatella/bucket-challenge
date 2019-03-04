@@ -6,9 +6,11 @@
 
 ```bash
 
- $ cmake TARGET-DIR
+ $ mkdir build
 
-	TARGET-DIR: donde se encuentra CMakeLists.txt
+ $ cd build
+
+ $ cmake ..
 
  $ make
 ```

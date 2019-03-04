@@ -1,4 +1,4 @@
 #!/bin/bash
 
-test/correr-pruebas.sh main
+test/correr-pruebas.sh build/main
 
