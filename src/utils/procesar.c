@@ -28,7 +28,7 @@ void procesar_linea(cola_t* cola, vector_t* vec_persona, cola_t* cola_balde) {
 		if (strcmp(comando, DONAR) == 0) {
 
 			if (!existe(vec_persona, persona_nombre)) {
-				cargar_persona_en_sistema_y_en_cola_balde(vec_persona, cola_balde, persona_nombre);
+				cargar_persona(vec_persona, cola_balde, persona_nombre);
 			}
 
 			char* cantidad = cola_desencolar(cola);

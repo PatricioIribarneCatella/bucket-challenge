@@ -33,7 +33,7 @@ void nominar(vector_t* vec_persona, char* persona_nombre, cola_t* cola, cola_t* 
 
 		} else {
 			
-			cargar_persona_en_sistema_y_en_cola_balde(vec_persona, cola_balde, nominado);
+			cargar_persona(vec_persona, cola_balde, nominado);
 			printf("OK %s\n", nominado);
 		}
 		

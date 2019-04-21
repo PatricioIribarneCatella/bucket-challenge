@@ -20,7 +20,7 @@ bool existe(vector_t* vec_persona, char* persona_nombre);
 
 size_t busqueda_persona(vector_t* vec_persona, char* persona_nombre);
 
-void cargar_persona_en_sistema_y_en_cola_balde(vector_t* vec_persona, cola_t* cola_balde, char* persona_nombre);
+void cargar_persona(vector_t* vec_persona, cola_t* cola_balde, char* persona_nombre);
 
 void destruir_persona(persona_t* persona);
 

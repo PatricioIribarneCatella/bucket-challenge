@@ -70,7 +70,7 @@ size_t busqueda_persona(vector_t* vec_persona, char* persona_nombre) {
 }
 
 // Carga una nueva persona en el sistema y en la cola para tirarse el valde.
-void cargar_persona_en_sistema_y_en_cola_balde(vector_t* vec_persona, cola_t* cola_balde, char* persona_nombre) {
+void cargar_persona(vector_t* vec_persona, cola_t* cola_balde, char* persona_nombre) {
 
 	persona_t* nueva_persona = crear_persona(persona_nombre);
 	
