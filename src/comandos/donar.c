@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "persona.h"
+#include "vector.h"
+#include "pila.h"
 
 void donar(vector_t* vec_persona, char* persona_nombre, char* cantidad) {
 

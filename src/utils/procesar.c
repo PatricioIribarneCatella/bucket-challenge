@@ -1,5 +1,15 @@
-#define SI "si"
-#define NO "no"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "cola.h"
+#include "vector.h"
+#include "persona.h"
+
+#include "donar.h"
+#include "tirar.h"
+#include "nominar.h"
+
 #define DONAR "donar"
 #define NOMINAR "nominar"
 #define TIRAR_BALDE "tirar_balde"

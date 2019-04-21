@@ -1,6 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "persona.h"
+#include "vector.h"
+#include "cola.h"
+#include "pila.h"
 
 void nominar(vector_t* vec_persona, char* persona_nombre, cola_t* cola, cola_t* cola_balde) {
-
 
 	if (!existe(vec_persona, persona_nombre)) {
 		

@@ -1,5 +1,20 @@
-// Imprime en una linea por salida estandar las cantidades donadas por la persona y el monto total de ellas.
-void cantidad_donada(persona_t* persona) {
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "persona.h"
+#include "pila.h"
+#include "cola.h"
+#include "vector.h"
+
+#define SI "si"
+#define NO "no"
+
+// Imprime en una linea por salida estandar
+// las cantidades donadas por la persona
+// y el monto total de ellas.
+//
+static void cantidad_donada(persona_t* persona) {
 
 	printf("OK [");
 	

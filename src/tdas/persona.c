@@ -1,4 +1,13 @@
-// Crea una nueva persona con el nombre, y una pila vacia para las donaciones.
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+
+#include "persona.h"
+
+// Crea una nueva persona con el nombre,
+// y una pila vacia para las donaciones.
+//
 persona_t* crear_persona(char* nombre) {
 
 	persona_t *persona = malloc(sizeof(persona_t));
