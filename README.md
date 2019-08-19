@@ -1,5 +1,7 @@
 # TP-Ice-Bucket-Challenge
 
+Simulación del concurso _Ice-bucket-challenge_ (Algoritmos y Programación II - _FIUBA_)
+
 ## Compilar
 
 - Dependencias: [CMake](https://cmake.org/)
