@@ -3,14 +3,14 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include "persona.h"
-#include "lectura.h"
-#include "procesar.h"
-#include "destruir.h"
-
 #include "vector.h"
 #include "pila.h"
 #include "cola.h"
+#include "persona.h"
+
+#include "lectura.h"
+#include "procesar.h"
+#include "destruir.h"
 
 #define TAM_INICIAL_VEC 50
 
